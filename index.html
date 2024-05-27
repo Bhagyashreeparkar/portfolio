@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhagyashree Parkar Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Bhagyashree Parkar</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Bhagyashree Parkar</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section-pic-container">
+      <img src="./assets/bhagyashreeparkar-profile-pic.jpg" alt="Bhagyashree Parkar Avatar" class="profile-pic" title="Bhagyashree Parkar">
+    </div>
+    <div class="section-text">
+      <p class="section-text-p1">Hello, I'm</p>
+      <h1 class="title"><span id="element"> </span></h1>
+      <p class="section-text-p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/bhagyashreeparkar-resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/bhagyashree-parkar/" target="_blank">
+          <img src="./assets/linkedin.png" alt="My LinkedIn Profile" title="LinkedIn" class="icon">
+        </a>          
+        <a href="https://github.com/Bhagyashreeparkar/" target="_blank">
+          <img src="./assets/github.png" alt="My GitHub Profile" title="GitHub" class="icon">
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section-text-p1">Get to Know More</p>
+    <h2 class="section-title">About Me</h2>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>4+ years <br> Frontend Development</p>
+          </div>          
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>Bachelor of Engineering, University of Mumbai <br > Master of Science, Rutgers University</p>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="text-container">
+            <ul>
+              <li>Prolific, task-driven <b>Frontend Developer</b> with 4 years of experience developing client-focused ADA-compliant websites and web projects in a fast paced environment using <b>HTML, CSS, PHP, Angular, React, Python, TypeScript</b> and <b>JavaScript</b> across diverse industries.</li>
+              <li>Proficient in developing databases, creating user interfaces, writing and testing codes, debugging, and implementing new advanced functionalities based on client feedback.</li>
+              <li>Strong interpersonal and communication skills, with a track record of building and maintaining positive relationships with clients, and team members</li>
+          </ul>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'"> -->
+  </section>
+  <section id="experience">
+    <p class="section-text-p1">Walk through My</p>
+    <h2 class="section-title">Experience</h2>
+    <div class="section-container exp-container">
+      <div class="details-container">
+        <div class="exp-content">
+          <div class="exp-heading">
+            <h3>Senior Web Developer</h3>
+            <p><u>Dream Chase Technology, LLC</u></p>
+            <h5>February 2024 - Present | Brooklyn NY, USA</h5>
+          </div>
+          <div class="text-container">
+            <ul>
+              <li>Directed daily operations while evaluating client project requirements to ascertain feasibility and devised strategic steps to accomplish objectives effectively</li>
+              <li>Engaged in proactive communication with clients, discussing proposals to align with their objectives and making necessary adjustments for optimal outcomes as well as  actively participated in meetings to define business requirements, contributing valuable insights for web enhancements and improvements</li>
+              <li>Demonstrated ability to translate business requirements into Salesforce solutions that align with business goals along with mentoring junior Salesforce developers and administrators, providing training on best practices and advanced Salesforce features</li>
+              <li>Achieved a 20% increase in customer purchases by developing optimized checkout pages and user-friendly websites for multiple companies as well as developed  SSRS reports, conducting thorough testing to ensure accuracy and reliability</li>
+              <li>Demonstrated advanced proficiency in front-end and back-end development technologies and frameworks, such as React.js, Angular, Vue.js, and Express.js, as well as server-side logic, databases, and APIs using technologies like Node.js, Python, Ruby and PHP</li>
+              <li>Optimized the performance of web applications through efficient coding practices, server-side optimizations, and caching strategies</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="exp-content">
+          <div class="exp-heading">
+            <h3>Web Developer</h3>
+            <p><u>Changing The Present</u></p>
+            <h5>Feb 2023 – Jan 2024 | Remote, USA</h5>
+          </div>
+          <div class="text-container">
+            <ul>
+              <li>Developed and managed WordPress from scratch by integrating with front-end user-friendly web functionalities using HTML CSS, JavaScript, PHP, React, and Angular along with other Content Management Systems</li>
+              <li>Gained hands-on experience with Salesforce CRM by assisting  in the customization and configuration of Sales Cloud and Service Cloud to meet specific business requirements of the organization for selling products</li>
+              <li>Supported agile development and deployment of custom Salesforce Lightning Components to enhance user interface, user experience for internal teams as well as web accessibility</li>
+              <li>Collaborated in the integration of third-party applications with Salesforce using REST and SOAP APIs, enhancing system capabilities and data consistency across platforms</li>
+              <li>Utilized Amazon Web Services (AWS) to deploy and manage applications, leveraging AWS services such as EC2, S3, and RDS for scalable and reliable solutions</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="exp-content">
+          <div class="exp-heading">
+            <h3>Web Developer</h3>
+            <p><u>Technosoft Engineering Projects Ltd.</u></p>
+            <h5>Jun 2019 – Jul 2021 | Thane, India</h5>
+          </div>
+          <div class="text-container">
+            <ul>
+              <li>Achieved 98.56% client satisfaction by developing responsive websites to meet client requirements with a 95% quality check score and 97.85% accuracy in both front-end and back-end, in a B2B or B2C web production</li>
+              <li>Led the optimization of the company's website, resulting in a 75.65% increase in website scores compared to the previous best and significantly improving website efficiency, navigation, and overall user experience</li>
+              <li>Optimized sites for 96.87% usability, search engine optimization, easy navigation, ADA compliance and accessibility, meeting clients' requirements</li>
+              <li>Demonstrated strong problem-solving abilities in identifying and resolving technical issues for seamless website functionality along with enhancing page speed up to 92% for Mobile and 99% for desktop view using Google Pagespeed Insights and GTMetrix for maintaining best web performance and webflow</li>
+              <li>Mastered BI and SEO tools including SEMRush, Ahrefs, Optimizely, Crazy Egg, Conductor, Google Analytics, Google Webmaster tools, Google Tag Manager, and emerging technologies, maintaining security and stability</li>
+              <li>Mentored and managed developers for building email templates, landing pages, and websites on Hubspot using Hubl and other tools resulting in an overall production increase of the company by 80% in content management</li>
+              <li>Implemented SQL stored procedures to fetch data for SSRS reports, enhancing data retrieval efficiency as well as executed daily database updates for multiple websites, managing various features and capabilities seamlessly</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="exp-content">
+          <div class="exp-heading">
+            <h3>Web Developer Intern</h3>
+            <p><u>Othrys Media (OPC) Pvt. Ltd.</u></p>
+            <h5>Dec 2018 – June 2019 | Thane, India</h5>
+          </div>
+          <div class="text-container">
+            <ul>
+              <li>Designed and developed a well-designed company website from scratch using industry best practices, contributing to creating user-friendly website layouts and interfaces with HTML/CSS, Javascript, and PHP</li>
+              <li>Actively participated in maintaining and troubleshooting the website, ensuring optimal functionality across various browsers and devices through comprehensive testing procedures</li>
+              <li>Fostered effective collaboration with web designers and team members, translating visual designs into functional web elements and working together to meet client specifications and technical requirements</li>
+              <li>Managed content management tasks on WordPress, including updating website content and optimizing SEO practices to enhance content relevance, freshness, and search engine ranking</li>
+              <li>Maintained meticulous technical documentation for website maintenance and updates, streamlining the process for team members and clients and ensuring continuity and ease of site management</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="exp-content">
+          <div class="exp-heading">
+            <h3>IT Intern</h3>
+            <p><u>Western Marine Traders</u></p>
+            <h5>Jun 2018 - Aug 2018 | Mumbai, India</h5>
+          </div>
+          <div class="text-container">
+            <ul>
+              <li>Assisted in the development of new web pages or features under the guidance of senior developers as well as learned and applied coding standards for HTML, CSS, JavaScript, and other relevant technologies</li>
+              <li>Updated and managed website content via content management systems (CMS) like WordPress as well as ensured all website content was up-to-date, accurate, and aligned with SEO best practices and web services</li>
+              <li>Conducted website testing to identify bugs and ensure compatibility across different browsers and devices and assisted in the testing of website performance, including loading times and web responsiveness</li>
+              <li>Participated in project meetings and contributed ideas for improving website functionality, design, and user experience while collaborating with cross-functional teams, including design, marketing, and content creation teams, to support web projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <p class="section-text-p1">Explore My</p>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h3 class="skills-sub-title">Programming Languages</h3>
+          <div class="article-container">
+            <article>
+              <img src="./assets/c-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>C/C++</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/c--logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>C#</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/python-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Python</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/java-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Java</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h3 class="skills-sub-title">Databases</h3>
+          <div class="article-container">
+            <article>
+              <img src="./assets/postgreSQL-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>PostgreSQL</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/mysql-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>MySQL</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/mongodb-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>MongoDB</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/NoSQL-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>NoSQL</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h3 class="skills-sub-title">Web Technologies</h3>
+          <div class="article-container">
+            <article>
+              <img src="./assets/net-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>.NET</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/api-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Rest APIs</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/nodejs-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Node JS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Next JS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/jquery-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>JQuery</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h3 class="skills-sub-title">Development Platforms</h3>
+          <div class="article-container">
+            <article>
+              <img src="./assets/cms-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Content Management Systems (CMS)</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/photoshop-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Adobe Photoshop</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>BrowserStack</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/jira-logo.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Atlassian</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"> -->
+  </section>
+
+  <section id="projects">
+    <p class="section-text-p1">Browse My Recent</p>
+    <h2 class="section-title">Projects</h2>
+    <div class="slider">
+      <div class="slides">
+        <div class="slide" id="slide-1">
+          <h3 class="project-title skills-sub-title">Classic Gameboy Tetris</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-1.png" alt="Classic Gameboy Tetris" title="Classic Gameboy Tetris" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Developed a Tetris game using with HTML to styling it with CSS for that retro vibe, to implement the game logic with JavaScript. The user can play the game and earn points accordinly.</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/tetris-game" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/tetris-game/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-2">
+          <h3 class="project-title skills-sub-title">Weather Site</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-2.png" alt="Weather Site" title="Weather Site" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Developed a Weather website using HTML, CSS, JavaScript by connecting to weather API. Weather can be checked across all places mention along with Temperature, Humidity, Wind, etc.</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/weather/" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/weather/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-3">
+          <h3 class="project-title skills-sub-title">Rock - Paper - Scissors</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-3.png" title="Rock - Paper - Scissors" alt="Rock - Paper - Scissors" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Developed Rock - Paper - Scissors game using HTML, CSS, JavaScript. Player will be able to compete with the computer and score can be tracked based on the number of games played</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/rock-paper-scissors" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/rock-paper-scissors/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-4">
+          <h3 class="project-title skills-sub-title">Movie Reviews Site</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-4.png" alt="Movie Reviews Site" title="Movie Reviews Site" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Developed a movie review website using HTML, CSS, JavaScript and Node.js linking movies API by connecting to MONGODB. Reviews can be created, edited and deleted as the frontend is connected to backend API and can be managed by the user</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/movie-review/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-5">
+          <h3 class="project-title skills-sub-title">Monster Repeller Game</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-5.png" alt="Monster Repeller Game" title="Monster Repeller Game" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Created game using HTML, CSS and JavaScript for defeating all the monsters in the game by buying weapons and health. Player's progress, level, score, collected items, and health is maintained. It also has a hidden game to make it more interactive</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/dragon-game" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/dragon-game/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-6">
+          <h3 class="project-title skills-sub-title">De-Light Initiative</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-7.png" alt="De-Light Initiative" title="De-Light Initiative" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Followed PMI standards to develop business cases and project charters for a non-profit organization that ensured successful awareness of Light Pollution in New York City. Developed a communication management plan and responsibility assignment matrix, increasing team productivity and smooth communication flow up to 20% by conducting impromptu status update meetings to plan and execute on-demand stakeholder expectations</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/project_management" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/project_management" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-7">
+          <h3 class="project-title skills-sub-title">Paper: DOS Attacks</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-8.png" alt="Paper: DOS Attacks" title="Paper: DOS Attacks" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Conducted thorough research and in-depth analysis of Denial of Service (DOS) and Distributed Denial of Service (DDOS) attacks on web services, assessing their various types, security and effects. Proposed a novel approach to prevent them by combining network-level and application-level defenses, including rate limiting, session tracking, and data validation while using appropriate technical terminology and visual aids to convey complex concepts</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/research_paper" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/research_paper/tree/main" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-8">
+          <h3 class="project-title skills-sub-title">Random Color Generator</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-9.png" alt="Random Color Generator" title="Random Color Generator" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Developed a Random Color Generator using with HTML to styling it with CSS , to implement the logic with JavaScript. The user generte random color and use it.</p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/random-color-generator" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/random-color-generator/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide-9">
+          <h3 class="project-title skills-sub-title">Gift Page Template</h3>  
+          <div class="project-content">          
+            <div class="section-pic-container">
+              <img src="./assets/project-10.png" alt="Gift Page Template" title="Gift Page Template" class="project-img"/>
+            </div>
+            <div class="section-text">
+                <p>Developed a Gift template using with HTML to styling it with CSS , to implement the logic with JavaScript. The specified component elements and layout are adhered to, including all provided options and working features except for the actual submit action. Responsiveness is ensured by utilizing Bootstrap 4 for compatibility across different devices. JavaScript, jQuery 3, or both are used to handle all functions effectively. The brand's fonts and colors are applied, with the fonts linked in the initial HTML file alongside Bootstrap 4 and jQuery 3. </p>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/Bhagyashreeparkar/Gift" target="_blank">GitHub</a>
+                <a class="btn btn-color-2 project-btn" href="https://bhagyashreeparkar.github.io/Gift/" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+  </section>
+  <section id="contact">
+    <p class="section-text-p1">Get in Touch</p>
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+        <a href="mailto:parkarbhagyashreehs@gmail.com">
+          <img src="./assets/email.png" alt="Email Icon" title="Email" class="icon contact-icon email-icon"/></a>
+        <a href="https://www.linkedin.com/in/bhagyashree-parkar/" target="_blank">
+          <img src="./assets/linkedin.png" alt="LinkedIn Icon" title="LinkedIn" class="icon contact-icon"/></a>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Bhagyashree Parkar. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Bhagyashree Parkar.'],
+      typeSpeed: 75,
+      loop: true
+    });
+  </script>
+</body>
+</html>
